@@ -24,5 +24,8 @@ main .banniere .row .col-8 h1 {
 footer {
   background-color: #393A3B;
 }
+footer img {
+  width: 50px;
+}
 
 /*# sourceMappingURL=style.css.map */

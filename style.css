@@ -122,36 +122,12 @@ main section:nth-child(3) img, main section:nth-child(5) img, main section:nth-c
 /* Fin Section LIENS */
 
 /* Début footer */
-footer {
-    background-color: #393A3B;
-    color: white;
-    padding: 40px 30px 25px 50px;
-    /* padding-top: 40px;
-    padding-bottom: 25px; */
-}
 
-.ftr-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding-bottom: 30px;
-}
+
+
 
 .ftr-packs, .ftr-outils, .ftr-social {
     display: grid;
     align-items: center;
     justify-content: space-around;
-}
-
-footer img {
-    width: 50px;
-    padding-right: 5px;
-}
-
-.ftr-container h4 {
-    padding-bottom: 20px;
-}
-
-#conditions {
-    display: flex;
-    justify-content: end;
 }
