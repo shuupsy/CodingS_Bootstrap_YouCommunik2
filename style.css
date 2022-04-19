@@ -4,16 +4,6 @@
     src: url('../fontfamily/Ubuntu-Light.ttf');
 }
 
-* {
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    font-family: Ubuntu, sans-serif;
-    width: 100%;
-}
-
 /* Début nav */
 nav {
     display: grid;
@@ -26,19 +16,6 @@ nav {
     padding-left: 3%;
     width: 200px;
 }
-
-.menu {
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    font-size: 15px;
-}
-
-.menu img {
-    width: 50px;
-}
-
-/* Fin nav */
 
 /* Début titre principal */
 .titre {
