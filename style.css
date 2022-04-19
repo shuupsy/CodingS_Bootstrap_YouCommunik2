@@ -17,21 +17,7 @@ nav {
     width: 200px;
 }
 
-/* Début titre principal */
-.titre {
-    background-color: #334D5C;
-    color: white;
-    height: 50vh;
-    display: grid;
-    grid-template-columns: 30% 1fr;
-    justify-content: center;
-    align-items: center;
-}
 
-.titre div:first-child {
-    display: grid;
-    justify-content: end;
-}
 
 .titre div:last-child {
     display: grid;
@@ -39,18 +25,6 @@ nav {
     padding-left: 15%;
 }
 
-h1 {
-    font-weight: normal;
-    font-size: 2rem;
-}
-
-h2 {
-    font-weight: normal;
-    font-size: 1.5rem;
-    padding-top: 15px;
-}
-
-/* Fin titre principal */
 
 /* Début Sections explications */
 #eclo-titre,
@@ -59,20 +33,6 @@ h2 {
     display: flex;
     justify-content: center;
     padding-bottom: 3%;
-}
-
-#eclo-titre h1, #evo-titre h1, #envol-titre h1 {
-    background-color: #334D5C;
-    display: inline;
-    color: white;
-    padding: 0 40px;
-    margin-bottom: 20px;
-}
-
-.eclosion,
-.evolution,
-.envol {
-    margin: 20px 0;
 }
 
 #eclo-imgtxt,#evo-imgtxt,#envol-imgtxt {
@@ -88,46 +48,4 @@ h2 {
     align-items: flex-end;
 }
 
-#eclo-img img,
-#evo-img img,
-#envol-img img {
-    width: 200px;
-    padding-bottom: 20px;
-}
-/* Fin Sections explication */
-main p {
-    font-size: 15px;
-    padding: 10px 7%;
-    /* pour tous les p de main (texte explications + txt sous logo */
-}
-/* Regroupement section LIENS */
-main section:nth-child(3), main section:nth-child(5), main section:nth-child(7) {
-    background-color: #EAE3D6;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    padding: 20px 0;
-    box-sizing: border-box;
-}
 
-main section:nth-child(5) {
-    flex-wrap: wrap;
-}
-
-main section:nth-child(3) img, main section:nth-child(5) img, main section:nth-child(7) img {
-    width: 70px;
-}
-
-/* Fin Section LIENS */
-
-/* Début footer */
-
-
-
-
-.ftr-packs, .ftr-outils, .ftr-social {
-    display: grid;
-    align-items: center;
-    justify-content: space-around;
-}

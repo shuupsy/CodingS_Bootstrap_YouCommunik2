@@ -20,6 +20,39 @@ main .banniere .row {
 main .banniere .row .col-8 h1 {
   font-size: 3.5rem;
 }
+main .eclo-links {
+  background-color: #EAE3D6;
+  height: 25vh;
+}
+main .eclo-links img {
+  width: 85px;
+}
+main .evo-links {
+  background-color: #EAE3D6;
+  height: 25vh;
+}
+main .evo-links img {
+  width: 85px;
+}
+main .envol-links {
+  background-color: #EAE3D6;
+  height: 25vh;
+}
+main .envol-links img {
+  width: 85px;
+}
+main p {
+  padding: 15px;
+  margin: 0;
+}
+main h3 {
+  background-color: #334D5C;
+  font-size: 3rem;
+  color: white;
+  display: inline;
+  padding: 0 40px;
+  margin-bottom: 20px;
+}
 
 footer {
   background-color: #393A3B;
