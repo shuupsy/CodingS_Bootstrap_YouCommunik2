@@ -8,7 +8,7 @@ main
     .banniere
         background-color: $bg-blue
         .row
-            height: 40vh
+            height: 50vh
             .col-8
                 h1
                     font-size: 3.5rem
@@ -26,22 +26,19 @@ main
 footer
     background-color: $bg-grey
     img
-        width: 50px
+        width: 60px
 
 @media screen and (min-width: 320px)
     header
         div
             img
                 display: none
-    // footer
-    //     img
-    //         display: none
 
 @media screen and (min-width: 768px)
     header
         div
             img
                 display: inline
-    footer
-        img
-            display: inline
+    main
+        .banniere
+            height: 40vh
