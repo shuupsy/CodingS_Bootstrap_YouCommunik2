@@ -73,6 +73,9 @@ footer img {
   main .banniere row {
     height: 40vh;
   }
+  main p {
+    padding: 0 15vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
