@@ -5,6 +5,8 @@
 }
 body {
   font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -73,8 +75,15 @@ footer img {
   main .banniere row {
     height: 40vh;
   }
-  main p {
-    padding: 0 15vh;
+  main .eclo-links {
+    flex-wrap: nowrap;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    margin: 0 auto !important;
+    width: 80%;
+    box-shadow: 0px 0px 35px 1px rgb(172, 172, 172);
   }
 }
 
