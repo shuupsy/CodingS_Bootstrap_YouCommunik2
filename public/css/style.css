@@ -70,7 +70,7 @@ footer img {
     display: inline;
   }
 
-  main .banniere {
+  main .banniere row {
     height: 40vh;
   }
 }
