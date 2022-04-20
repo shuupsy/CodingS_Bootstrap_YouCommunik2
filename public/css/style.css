@@ -60,14 +60,19 @@ footer img {
   width: 50px;
 }
 
-@media screen and (min-width: 766px) {
-  header nav div img {
+@media screen and (min-width: 320px) {
+  header div img {
     display: none;
   }
 
   main p {
     padding: 15px;
     margin: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  header div img {
+    display: inline;
   }
 }
 
