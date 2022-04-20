@@ -61,4 +61,10 @@ footer img {
   width: 50px;
 }
 
+@media screen and (max-width: 766px) {
+  header nav div img {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
