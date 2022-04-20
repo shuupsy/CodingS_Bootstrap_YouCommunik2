@@ -19,8 +19,7 @@ main
     .envol-links
         @include section-links
     p
-        padding: 15px
-        margin: 0
+        padding: 5px
     h3
         @include btn-b
 
@@ -29,12 +28,13 @@ footer
     img
         width: 50px
 
-@media screen and (max-width: 766px)
+@media screen and (min-width: 766px)
     header
         nav
             div
                 img
                     display: none
-    // main
-    //     .banniere
-    //         height: auto
+    main
+        p
+            padding: 15px
+            margin: 0
